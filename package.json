@@ -16,6 +16,6 @@
     "url": "https://github.com/atom/language-todo/issues"
   },
   "devDependencies": {
-    "coffeelint": "^1.10.1"
+    "coffeelint": "^2.1.0"
   }
 }
