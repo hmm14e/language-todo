@@ -2,6 +2,9 @@
   'todo':
     'prefix': 'todo'
     'body': '# TODO: $0'
+  'done':
+    'prefix': 'done'
+    'body': '# DONE: $0'
   'fixme':
     'prefix': 'fix'
     'body': '# FIXME: $0'
@@ -46,6 +49,9 @@
   'todo':
     'prefix': 'todo'
     'body': '-# TODO: $0'
+  'done':
+    'prefix': 'done'
+    'body': '-# DONE: $0'
   'fixme':
     'prefix': 'fix'
     'body': '-# FIXME: $0'
@@ -90,6 +96,9 @@
   'todo':
     'prefix': 'todo'
     'body': '<%# TODO: $0 %>'
+  'done':
+    'prefix': 'done'
+    'body': '<%# DONE: $0 %>'
   'fixme':
     'prefix': 'fix'
     'body': '<%# FIXME: $0 %>'
@@ -133,6 +142,8 @@
 '.text.html.ruby .meta.tag, .text.erb .meta.tag':
   'todo':
     'prefix': 'todo'
+  'done':
+    'prefix': 'done'
   'fixme':
     'prefix': 'fix'
   'xxx':
@@ -164,6 +175,9 @@
   'todo':
     'prefix': 'todo',
     'body': '<!-- TODO: $0 -->'
+  'done':
+    'prefix': 'done',
+    'body': '<!-- DONE: $0 -->'
   'fixme':
     'prefix': 'fix',
     'body': '<!-- FIXME: $0 -->'
@@ -207,6 +221,8 @@
 '.html.basic .meta.tag':
   'todo':
     'prefix': 'todo',
+  'done':
+    'prefix': 'done',
   'fixme':
     'prefix': 'fix',
   'xxx':
@@ -238,6 +254,9 @@
   'todo':
     'prefix': 'todo'
     'body': '// TODO: $0'
+  'done':
+    'prefix': 'done'
+    'body': '// DONE: $0'
   'fixme':
     'prefix': 'fix'
     'body': '// FIXME: $0'
@@ -282,6 +301,9 @@
   'todo':
     'prefix': 'todo'
     'body': '/* TODO: $0 */'
+  'done':
+    'prefix': 'done'
+    'body': '/* DONE: $0 */'
   'fixme':
     'prefix': 'fix'
     'body': '/* FIXME: $0 */'
@@ -325,6 +347,8 @@
 '.source.css .meta.property-value':
   'todo':
     'prefix': 'todo'
+  'done':
+    'prefix': 'done'
   'fixme':
     'prefix': 'fix'
   'xxx':
@@ -356,6 +380,9 @@
   'todo':
     'prefix': 'todo'
     'body': '<?php // TODO: $1 ?>$0'
+  'done':
+    'prefix': 'done'
+    'body': '<?php // DONE: $1 ?>$0'
   'fixme':
     'prefix': 'fix'
     'body': '<?php // FIXME: $1 ?>$0'
