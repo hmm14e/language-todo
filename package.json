@@ -6,10 +6,10 @@
     "atom": "*",
     "node": "*"
   },
-  "homepage": "http://atom.github.io/language-todo",
+  "homepage": "https://github.com/hmm14e/language-todo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-todo.git"
+    "url": "https://github.com/hmm14e/language-todo.git"
   },
   "license": "MIT",
   "bugs": {
